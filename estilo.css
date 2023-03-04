@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'Roboto', Arial, Arial, Helvetica, sans-serif;
+} 
+
+html , body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #191919, black);
+    display: grid;
+    place-items: center;
+}
+
+.login-back {
+    width: 25%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 16px;
+    z-index: 0;
+    position: absolute;
+    rotate: 5deg;
+    opacity: 0.2;
+
+}
+
+.container {
+    width: 25%;
+    height: 80vh;
+    background-color: grey;
+    opacity: 0.9;
+    border-radius: 16px;
+    box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+    z-index: 2;
+}
+
+.logo-panda {
+    text-align: center;
+}
+
+.panda {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.login-conectse {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 2px 2px #191919;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
+.emails , .senha {
+    width: 100%;
+    margin: 15px;
+}
+
+
+#email , #senha {
+    width: 80%;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color:azure;
+    color: white;
+    font: normal 13pt Arial black;
+    opacity: 0.7;
+}
+
+.lembrarmes {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 20px;
+    font: normal 14pt 'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+
+.ajudalink {
+    text-decoration: none;
+    color: rgb(222, 228, 255);
+}
+
+.buttons {
+    width: 100%;
+}
+
+.logbutton {
+    background: black;
+    color: white;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    letter-spacing: 20px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.logbutton:hover {
+    background:aliceblue;
+    transition: calc(1s);
+    opacity: 0.4;
+}
+
+.conta {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 20px;
+    font: normal 14pt 'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+
+.contali {
+    text-decoration: none;
+    color: rgb(222, 228, 255);
+}
